@@ -1,0 +1,46 @@
+.toolbar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    background-color: #f2f0f0;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  
+  
+  .edit-panel {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  .edit-panel input {
+    margin-right: 10px;
+  }
+  
+  .anw {
+    border: 2px solid rgb(54, 137, 210); 
+    padding: 10px;
+    border-radius: 5px;
+    background: #f0f8ff;
+  }
+  .resp{
+    border: 2px solid purple; 
+    padding: 10px;
+    border-radius: 5px;
+    background: #f8f0ff; 
+  }
+  .save{
+    border: 2px solid rgb(0, 128, 6); 
+    padding: 10px;
+    border-radius: 5px;
+    background: #f2fff0; 
+  }

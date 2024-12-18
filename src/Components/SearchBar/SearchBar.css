@@ -1,0 +1,58 @@
+.container-searchBar {
+    background-color: black;
+    color: white;
+    height: 3rem; /* Altura moderada */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaciado entre el logo y la barra de búsqueda */
+    padding: 0 1rem; /* Espaciado interno */
+    top: 0;
+    left: 0;
+    right: 0; /* Para que esté por encima de otros elementos */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Espaciado entre el input y el mini logo */
+  }
+  
+  .search-input {
+    background-color: #333;
+    border: none;
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    width: 200px; /* Ancho moderado */
+    transition: width 0.3s ease-in-out; /* Efecto al enfocar */
+  }
+  
+  .search-input:focus {
+    width: 300px; /* Expande el input al enfocar */
+    background-color: #444; /* Cambia ligeramente el color */
+  }
+  
+  .mini-logo img {
+    width: 40px; /* Tamaño de la imagen */
+    height: 40px;
+    border-radius: 50%; /* Forma circular */
+    border: 2px solid white; /* Borde blanco */
+    background-color:rgb(218, 213, 213) ;
+    object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .mini-logo img:hover {
+    transform: scale(1.1); /* Efecto de agrandamiento al pasar el cursor */
+  }
+  

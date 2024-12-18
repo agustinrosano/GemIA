@@ -1,0 +1,50 @@
+.container-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(229, 221, 221);
+    width: 5rem;
+    height:100%;
+    padding-top: 1rem;
+    position: absolute;
+    left: 0;
+  }
+  
+  .card-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .card-button img {
+    width: 2rem;
+    height: 2rem;
+    filter: invert(0); /* Cambia el color de la imagen a negro */
+  }
+  
+  .card-button .card-name {
+    display: none; /* Ocultar el texto inicialmente */
+  }
+  
+  .card-button:hover {
+    background-color: #f3f0f0;
+    transform: scale(1.1); /* Efecto de agrandamiento al pasar el mouse */
+  }
+  
+  .card-button:hover .card-name {
+    display: block; /* Mostrar el texto al pasar el mouse */
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: black;
+    text-align: center;
+  }
+  

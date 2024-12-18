@@ -1,0 +1,32 @@
+.container-main-sections{
+    padding: 1rem;
+}
+
+.Templates-content-btn{
+    display: flex;
+    justify-content:end;
+    margin-bottom: 10px;
+}
+
+.Templates-content-btn button{
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease;
+  }
+  
+.Templates-content-btn button:hover{
+    background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+  }
+  
+
+.subsection-content{
+    background-color: #cccccc80;
+    border-radius: 15px;
+    height: 100%;
+    padding: 1rem;
+}
